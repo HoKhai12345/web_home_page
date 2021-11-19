@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'mariadb',
-	'username' => 'root',
-	'password' => 'hungna',
-	'database' => 'web_tu_lam',
+	'hostname' => 'MYSQL5037.site4now.net',
+	'username' => 'a7cb17_webhome',
+	'password' => 'khaihieu231',
+	'database' => 'db_a7cb17_webhome',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => 'tnv_',
 	'pconnect' => FALSE,
