@@ -1058,7 +1058,7 @@
 <script>
 	if (localStorage.getItem('menuLeft') == null ){
 			$.ajax({
-				url: 'http://web_tu_lam.khaiho.io/menuleft',
+				url: 'https://question-gameone.herokuapp.com/menuleft',
 				type: 'GET',
 			}).then(function (result) {
 				$("#menu_view").html(result);
