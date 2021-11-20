@@ -19,5 +19,10 @@
 	"require-dev": {
 		"mikey179/vfsstream": "1.6.*",
 		"phpunit/phpunit": "4.* || 5.* || 8.*"
-	}
+	},
+  "scripts": {
+	"post-create-project-cmd": [
+	  "composer install"
+	]
+  }
 }
