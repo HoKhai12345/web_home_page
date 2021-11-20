@@ -22,7 +22,7 @@
 	},
   "scripts": {
 	"post-create-project-cmd": [
-	  "composer install"
+	  "composer install --ignore-platform-reqs"
 	]
   }
 }
