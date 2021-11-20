@@ -55,7 +55,7 @@ $route['translate_uri_dashes'] = FALSE;
 // router web_tu_lam
 
 $route['home'] = 'HomeController/index';
-$route['menuleft'] = 'MenuController/menu_left';
+$route['/menuleft'] = 'MenuController/menu_left';
 $route['subCate/(:num)'] = 'MenuController/menu_sub/$1';
 $route['QuestionGame/(:any)'] = 'QuestionController/question/$1';
 $route['api/list_question_width_category/(:any)/(:num)'] = 'QuestionController/apiListQuestionWidthCategory/$1/$2';
